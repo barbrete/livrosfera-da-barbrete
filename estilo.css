@@ -1,0 +1,86 @@
+body {
+	background: #FBDDBB;
+	color: #71421E;
+	font-size: 20px;
+}
+
+#icone{
+   display: inline-block;
+   width: 5%;
+   top: 13%;
+   left: 3%;
+   position: absolute;
+   box-shadow: 1px 1px 5px #808080;
+}
+
+#imglivrosfera {
+    width: 100%;
+    position: absolute;
+    opacity: 0.6;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#imglivrosfera:hover{
+  opacity: 1;
+}
+
+#slogan{
+	text-align: center;
+	width: 45%;
+  position: absolute;
+  font-size: 15px;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Formatação do Menu*/
+
+nav#menu {
+	display: block;
+	text-decoration: none;
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0%;
+	left: 10%;
+	font-size: 50%;
+}
+
+nav#menu li{
+	display: inline-block;
+	padding: 5px;
+	margin: 15px;
+}
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu a{
+	color: #71421E;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	font-weight: bold;
+}
+
+nav#iniciolivrosfera a{
+	color: #71421E;
+	text-decoration: none;
+}
+
+nav#iniciolivrosfera ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 6%;
+	left: 4%;	
+	font-size: 80%;
+}

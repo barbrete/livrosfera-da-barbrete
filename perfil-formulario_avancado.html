@@ -1,0 +1,86 @@
+<!DOCTYPE>
+<html lang="pt-br">
+	<head>	
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="perfil.css">
+		<title>Perfil do Usuário</title>
+	</head>	
+	<body>
+
+		<nav id="menu">
+			<h1>Menu Principal</h1>
+			<ul>
+				<li><a id="lisvrosfera" href="index.html">livrosfera</a></li>
+				<li><a href="perfil-formulario_avancado.html">perfil do usuário</a></li>
+				<li><a href="categorias.html">categorias</a></li>
+				<li><a href="destaques.html">destaques</a></li>
+				<li><a href="sobrenos.html">sobre nós</a></li>
+			</ul>
+		</nav>			
+
+		<img id="icone" src="icone.png" alt="Icone de um livro dentro de um celular"/>
+		
+		<main>
+			<form>
+				<label for="usuario">Usuário</label>
+				<input type="text" id="usuario" class="input-padrao" required placeholder="email ou nome de usuário">
+
+				<label for="senha">Senha</label>
+				<input type="password" id="senha" class="input-padrao" required>
+
+				<input type="submit" value="Enviar" class="enviar">
+
+				<p>Não possuí conta?</p>
+
+				<label for="usuario">Nome de usuário</label>
+				<input type="text" id="usuario" class="input-padrao">
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+
+				<label for="senha">Nova senha</label>
+				<input type="password" id="senha" class="input-padrao" required>
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<fieldset>
+					<p>Qual é o seu genêro?</p>
+
+					<label for="radio-feminino">Feminino</label>
+					<input type="radio" name="genero" value="gender" id=radio-feminino> 
+					
+
+					<label for="radio-masculino">Masculino</label>
+					<input type="radio" name="genero" value="gender" id=radio-masculino> 
+					
+					<label for="radio-personalizado">Personalizado</label>
+					<input type="radio" name="genero" value="gender" id=radio-feminino> 
+				</fieldset>
+
+				<fieldset>
+					<p>Em que mês você nasceu?</p>
+					<select>
+						<option>Janeiro</option>
+						<option>Fevereiro</option>
+						<option>Março</option>
+						<option>Abril</option>
+						<option>Maio</option>
+						<option>Junho</option>
+						<option>Julho</option>
+						<option>Agosto</option>
+						<option>Setembro</option>
+						<option>Outubro</option>
+						<option>Novembro</option>
+						<option>Dezembro</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox">Você concorda com nossos Termos, Política de Privacidade e Política de Cookies?</label>
+				<input type="checkbox">
+
+				<input type="submit" value="Enviar" class="enviar">
+			</form>			
+		</main>
+	</body>
+</html>	 

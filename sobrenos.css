@@ -1,0 +1,108 @@
+body {
+	background: 255, 255, 255;
+	color: #71421E;
+	font-size: 20px;
+}
+
+/*Formatação do Menu*/
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -20px;
+	left: 1px;
+	font-size: 20px;
+	background-color: #FBDDBB;
+	width: 1325px;
+	height: 65px;
+}
+
+nav#menu li{
+	display: inline-block;
+	padding: 5px;
+	margin: 15px;
+}
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu a{
+	color: #71421E;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	font-weight: bold;
+}
+
+#icone{
+   display: inline-block;
+   width: 3%;
+   top: 8px;
+   left: 15px;
+   position: absolute;
+}
+
+#titulo{
+	text-align: center;
+	width: 100%;
+    position: absolute;
+    font-size: 15px;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Criando caixas*/
+
+nav#topicos {
+	display: block;
+	text-decoration: none;
+	color: #000000;
+}
+
+nav#topicos ul{
+	list-style: none;
+}
+
+.um {
+	text-align: center;
+    background: rgb(251,221,187);
+    width: 1200px;
+    height: 150px;
+    border-radius: 110px;
+    top: 25%;
+    position: absolute;
+    text-decoration: none;    
+    font-size: 24px;
+}
+
+.dois{
+	text-align: justify;
+    background: rgb(234,208,193);
+    width: 1200px;
+    height: 150px;
+    border-radius: 110px;
+    top: 50%;
+    position: absolute;
+    text-decoration: none;    
+    font-size: 24px;
+}
+
+.tres{
+	text-align: center;
+    background: rgb(221,210,206);
+    width: 1200px;
+    height: 150px;
+    border-radius: 110px;
+    top: 75%;
+    position: absolute;
+    text-decoration: none;
+    font-size: 24px;
+}

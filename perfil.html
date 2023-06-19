@@ -1,0 +1,66 @@
+<!DOCTYPE>
+<html lang="pt-br">
+	<head>	
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="perfil.css">
+		<title>Perfil do Usuário</title>
+	</head>	
+	<body>
+
+		<nav id="menu">
+			<h1>Menu Principal</h1>
+			<ul>
+				<li><a id="lisvrosfera" href="index.html">livrosfera</a></li>
+				<li><a href="perfil.html">perfil do usuário</a></li>
+				<li><a href="categorias.html">categorias</a></li>
+				<li><a href="destaques.html">destaques</a></li>
+				<li><a href="sobrenos.html">sobre nós</a></li>
+			</ul>
+		</nav>			
+
+		<img id="icone" src="icone.png"/>
+		
+		<main>
+			<form>
+				<label for="usuario">Usuário</label>
+				<input type="text" id="usuario" class="input-padrao">
+
+				<label for="senha">Senha</label>
+				<input type="password" id="senha" class="input-padrao">
+
+				<input type="submit" value="Enviar">
+
+				<p>Não possuí conta?</p>
+
+				<label for="usuario">Nome de usuário</label>
+				<input type="text" id="usuario" class="input-padrao">
+
+				<label for="senha">Nova senha</label>
+				<input type="password" id="senha" class="input-padrao">
+
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone" class="input-padrao">
+
+				<div>
+					<p>Qual é o seu genêro?</p>
+
+					<label for="radio-feminino">Feminino</label>
+					<input type="radio" name="genero" value="gender" id=radio-feminino> 
+					
+
+					<label for="radio-masculino">Masculino</label>
+					<input type="radio" name="genero" value="gender" id=radio-masculino> 
+					
+					<label for="radio-personalizado">Personalizado</label>
+					<input type="radio" name="genero" value="gender" id=radio-feminino> 
+					
+				</div>
+
+				<label class="checkbox">Você concorda com nossos Termos, Política de Privacidade e Política de Cookies?</label>
+				<input type="checkbox">
+
+				<input type="submit" value="Enviar">
+			</form>			
+		</main>
+	</body>
+</html>	 
